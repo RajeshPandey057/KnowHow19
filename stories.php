@@ -31,13 +31,13 @@
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
-        <header class="site-navbar py-3 border-bottom" role="banner">
+        <header class="site-navbar py-3" role="banner">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-6 col-xl-2" data-aos="fade-down">
                         <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">KnowHow'19</a></h1>
                     </div>
-                    <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
+                   <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
                         <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
                             <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                                 <li class="active"><a href="index.html">Home</a></li>
@@ -86,68 +86,6 @@
                 </div>
             </div>
         </header>
-        <div class="site-section" data-aos="fade">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-md-7">
-                        <div class="row mb-5">
-                            <div class="col-12 ">
-                                <h2 class="site-section-heading text-center">Contact Us</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 mb-5">
-                                <form action="#">
-                                    <div class="row form-group">
-                                        <div class="col-md-6 mb-3 mb-md-0">
-                                            <label class="text-black" for="fname">First Name</label>
-                                            <input type="text" id="fname" class="form-control">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label class="text-black" for="lname">Last Name</label>
-                                            <input type="text" id="lname" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <div class="col-md-12">
-                                            <label class="text-black" for="email">Email</label>
-                                            <input type="email" id="email" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <div class="col-md-12">
-                                            <label class="text-black" for="subject">Subject</label>
-                                            <input type="subject" id="subject" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <div class="col-md-12">
-                                            <label class="text-black" for="message">Message</label>
-                                            <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row form-group">
-                                        <div class="col-md-12">
-                                            <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4 text-white">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-lg-3 ml-auto">
-                                <div class="mb-3 bg-white">
-                                    <p class="mb-0 font-weight-bold">Address</p>
-                                    <p class="mb-4">TPC Cell,401, B Block , Birla Vishwakarma Mahavidhyalaya</p>
-                                    <p class="mb-0 font-weight-bold">Phone</p>
-                                    <p class="mb-4"><a href="#">+9714094823</a></p>
-                                    <p class="mb-0 font-weight-bold">Email Address</p>
-                                    <p class="mb-0"><a href="#">bvmtpc2020@gmail.com</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>

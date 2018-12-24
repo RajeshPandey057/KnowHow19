@@ -1,5 +1,5 @@
 <?php
 
-$conn=mysqli_connect("localhost","root","","prdb") or die("Die Hard");
+$conn=mysqli_connect("localhost","root","","knowhow19") or die("Die Hard");
 
 ?>

@@ -23,10 +23,10 @@ if($res)
 }
 else
 {
-echo ("<script LANGUAGE='JavaScript'>
+/*echo ("<script LANGUAGE='JavaScript'>
     alert('INVALID DATA ');
     window.location.href='addstories.php';
     </script>");	
-	
+*/	
 }
 ?>

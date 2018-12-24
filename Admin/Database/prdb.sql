@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`ID`, `Name`, `Password`) VALUES
-('devs', 'tpc2020', 'qwerty');
+('chintan221', 'Chintan Rajput', '123456');
 
 -- --------------------------------------------------------
 
