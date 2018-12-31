@@ -186,7 +186,9 @@ button:hover {
 <html lang="en">
 <head>
     <title>KnowHow'19 &mdash;Try Now To know how.</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
