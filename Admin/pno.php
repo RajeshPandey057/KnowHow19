@@ -1,13 +1,13 @@
 <?php
 include 'connect.php';
 
- $qry="SELECT pno FROM pno";
+ $qry="SELECT ID FROM storie_no";
  
- $result=mysqli_query($conn,$qry);
- $pno=mysqli_num_rows($result);
- $pno=$pno+1;
- 
- $sql="INSERT INTO pno(pno) VALUES('$pno')";
-
+ if($result=mysqli_query($conn,$qry))
+ {
+    $pno=mysqli_num_rows($result);
+    $pno=$pno+1;
+    $sql="INSERT INTO storie_no(sno) VALUES('$pno')";
+ }
 mysqli_query($conn,$sql);
  ?>

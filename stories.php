@@ -44,21 +44,21 @@
                                 <li class="has-children">
                                     <a href="single.html">Events</a>
                                     <ul class="dropdown">
-                                        <li><a href="cribado.html">Cribado</a></li>
-                                        <li><a href="accentus.html">Accentus</a></li>
-                                        <li><a href="ahlarry.html">Alh ar'ray</a></li>
-                                        <li><a href="segacite.html">Segacite</a></li>
-                                        <li><a href="vyakti.html">Vyaktitvam</a></li>
+                                        <li><a href="#">Cribado</a></li>
+                                        <li><a href="#">Accentus</a></li>
+                                        <li><a href="#">Alh ar'ray</a></li>
+                                        <li><a href="#">Segacite</a></li>
+                                        <li><a href="#">Vyaktitvam</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="Results.html">Results</a></li>
                                 <li><a href="about.html">About US</a></li>
                                 <li class="has-children">
-                                            <a href="to.html">Contact</a>
+                                            <a href="#">Contact</a>
                                             <ul class="dropdown">
-                                                <li><a href="evco.html">Event Co-ordinators</a></li>
-                                                <li><a href="dev.html">Developers</a></li>
-                                                <li><a href="contact.html">Send Query</a></li>
+                                                <li><a href="#">Event Query</a></li>
+                                                <li><a href="#">Developers</a></li>
+                                                <li><a href="#">US</a></li>
                                             </ul>
                                         </li>
                             </ul>
@@ -86,79 +86,6 @@
                 </div>
             </div>
         </header>
-        <div class="container-fluid" data-aos="fade" data-aos-delay="500">
-            <div class="swiper-container images-carousel">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="image-wrap">
-                            <div class="image-info">
-                                <h2 class="mb-3">KnowHow'19 : An Intro</h2>
-                                <a href="single.html" class="btn btn-outline-white py-2 px-4">Know More</a>
-                            </div>
-                            <img src="images/img_1.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-wrap">
-                            <div class="image-info">
-                                <h2 class="mb-3">Events</h2>
-                                <a href="single.html" class="btn btn-outline-white py-2 px-4">Know More</a>
-                            </div>
-                            <img src="images/img_2.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-wrap">
-                            <div class="image-info">
-                                <h2 class="mb-3">Results</h2>
-                                <a href="single.html" class="btn btn-outline-white py-2 px-4">Know More</a>
-                            </div>
-                            <img src="images/img_3.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-wrap">
-                            <div class="image-info">
-                                <h2 class="mb-3">Contact US</h2>
-                                <a href="single.html" class="btn btn-outline-white py-2 px-4">Know More</a>
-                            </div>
-                            <img src="6_150.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-wrap">
-                            <div class="image-info">
-                                <h2 class="mb-3">About US</h2>
-                                <a href="single.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
-                            </div>
-                            <img src="images/img_5.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-wrap">
-                            <div class="image-info">
-                                <h2 class="mb-3">Outcomes</h2>
-                                <a href="single.html" class="btn btn-outline-white py-2 px-4">Know More</a>
-                            </div>
-                            <img src="images/img_6.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <!--- <div class="swiper-slide">
-                    <div class="image-wrap">
-                        <div class="image-info">
-                            <h2 class="mb-3">Travel</h2>
-                            <a href="single.html" class="btn btn-outline-white py-2 px-4">Know More</a>
-                        </div>
-                        <img src="images/img_7.jpg" alt="Image">
-                    </div>
-                </div>--->
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-scrollbar"></div>
-        </div>
-    </div>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>

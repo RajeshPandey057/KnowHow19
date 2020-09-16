@@ -17,7 +17,7 @@
 	{
 		echo ("<script LANGUAGE='JavaScript'>
 		    alert('Wrong details.');
-		    window.location.href='login.html';
+		    window.location.href='Admin login.html';
 		    </script>");	
 	}
 ?>

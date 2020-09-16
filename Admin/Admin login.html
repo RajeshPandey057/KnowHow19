@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <title>KnowHow'19 &mdash;Try Now To know how.</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
@@ -20,18 +22,8 @@
     <link rel="stylesheet" href="../css/swiper.css">
     <link rel="stylesheet" href="../css/aos.css">
     <link rel="stylesheet" href="../css/style.css">
-    <style>
-        .ab{
-	   padding-left:2%;
-	   padding-right:2%;
-        }
-        .ac
-        {
-	   padding-top:35px;
-        }
-    </style>
-    </head>
-    <body>
+</head>
+<body>
     <div class="site-wrap">
         <div class="site-mobile-menu">
             <div class="site-mobile-menu-header">
@@ -41,19 +33,36 @@
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
-        <header class="site-navbar py-3" role="banner">
+        <header class="site-navbar py-3 border-bottom" role="banner">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-6 col-xl-2" data-aos="fade-down">
-                        <h1 class="mb-0"><a href="../index.html" class="text-black h2 mb-0">KnowHow'19</a></h1>
+                        <h1 class="mb-0"><a href="Admin/Admin%20login.html" class="text-black h2 mb-0">KnowHow'19</a></h1>
                     </div>
                     <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
                         <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
                             <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                                <li class="active"><a href="admin.php">Admins Home</a></li>
-                                <li><a href="../Results.html">Edit Results</a></li>
-                                <li><a href="addstories.html">Edit Stories</a></li>
-                                <li><a href="contact.html">Logout</a></li>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li class="has-children">
+                                    <a href="../single.html">Events</a>
+                                    <ul class="dropdown">
+                                        <li><a href="../cribado.html">Cribado</a></li>
+                                        <li><a href="../accentus.html">Accentus</a></li>
+                                        <li><a href="../ahlarry.html">Alh ar'ray</a></li>
+                                        <li><a href="../segacite.html">Segacite</a></li>
+                                        <li><a href="../vyakti.html">Vyaktitvam</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../Results.html">Results</a></li>
+                                <li><a href="../about.html">About US</a></li>
+                                <li class="has-children">
+                                            <a href="../contact.html">Contact</a>
+                                            <ul class="dropdown">
+                                                <li><a href="#">Event Query</a></li>
+                                                <li><a href="#">Developers</a></li>
+                                                <li><a href="../contact.html">US</a></li>
+                                            </ul>
+                                        </li>
                             </ul>
                         </nav>
                     </div>
@@ -79,17 +88,33 @@
                 </div>
             </div>
         </header>
-        <div class="ab">
-            <div class="ac">
-                <h2> <center><b>Add New Stories </b></center></h2></div>
-            <form method="POST" action="addstories.php" enctype="multipart/form-data">
-    <label for="name"><b>Name</b> </label><br/>
-    <input type="text"  name="name" ><br/>
-    <input type="file" name="uploadfile" value="" required><br/><br/>
-    <div><input class="btns" type="submit" name="submit" value="SUBMIT"></div>
-</form>
-</div>
-</div>
+        <div class="col-md-7">
+            <div class="row mb-5">
+                <div class="col-12 ">
+                    <h2 class="site-section-heading text-center">Hey Admin, Login Na</h2>
+				<form name="myForm" method="post" action="login.php" >
+					<div class="wrap-input100 validate-input" align="center">
+						<input class="input100" type="text" name="email" placeholder="User Name" required>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" required>
+						<input class="input100" type="password" name="pass" placeholder="Password" required>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="container-login100-form-btn">
+						<input type="submit" name="LOGIN" class="login100-form-btn"/>
+					</div>
+				</form>
+			    </div>
+                </div>
+            </div>
+        </div>
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/jquery-migrate-3.0.1.min.js"></script>
     <script src="../js/jquery-ui.js"></script>

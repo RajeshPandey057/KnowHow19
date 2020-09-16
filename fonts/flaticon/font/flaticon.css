@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 07/12/2018 03:18
+  	Creation date: 22/12/2018 09:55
   	*/
 
 @font-face {
@@ -24,21 +24,14 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-camera:before { content: "\f100"; }
-.flaticon-picture:before { content: "\f101"; }
-.flaticon-sheep:before { content: "\f102"; }
-.flaticon-frame:before { content: "\f103"; }
-.flaticon-eiffel-tower:before { content: "\f104"; }
-.flaticon-video-play:before { content: "\f105"; }
+.flaticon-psychology:before { content: "\f100"; }
+.flaticon-discussion:before { content: "\f101"; }
+.flaticon-capitol-building:before { content: "\f102"; }
+.flaticon-lightbulb-idea:before { content: "\f103"; }
+.flaticon-chronometer:before { content: "\f104"; }
+.flaticon-team-leader:before { content: "\f105"; }
