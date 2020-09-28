@@ -39,7 +39,7 @@
 </head>
 
 <body>
-  <!---  <div class="site-wrap">
+    <div class="site-wrap">
         <div class="site-mobile-menu">
             <div class="site-mobile-menu-header">
                 <div class="site-mobile-menu-close mt-3">
@@ -98,100 +98,33 @@
                     </div>
                 </div>
             </div>
-        </header>--->
-  <div class="site-wrap">
-        <div class="site-mobile-menu">
-            <div class="site-mobile-menu-header">
-                <div class="site-mobile-menu-close mt-3">
-                    <span class="icon-close2 js-menu-toggle"></span>
-                </div>
-            </div>
-            <div class="site-mobile-menu-body"></div>
-        </div>
-        <header class="site-navbar py-3" role="banner">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-6 col-xl-2" data-aos="fade-down">
-                        <h1 class="mb-0"><a href="../index.html" class="text-black h2 mb-0">KnowHow'19</a></h1>
-                    </div>
-                    <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
-                        <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
-                            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                                <li class="active"><a href="admin.php">Admins Home</a></li>
-                                <li><a href="../services.html">Edit Results</a></li>
-                                <li><a href="addstories.html">Edit Stories</a></li>
-                                <li><a href="../index.html">Logout</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
-                        <div class="d-none d-xl-inline-block">
-                            <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
-                                <li>
-                                    <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
-                    </div>
-
-                </div>
-            </div>
-
         </header>
-      </div>
-  <?php
-  
-      include 'connect.php';
-      $sql="select * from stories";
-      $result=mysqli_query($conn,$sql);
-        echo '<div class="row" id="lightgallery">';
-      $countrow=0;
-      while($res=mysqli_fetch_assoc($result))
-      {
-          echo "<div class='col-sm-6 col-md-4 col-lg-3 col-xl-2 item' data-aos='fade' data-src='$res[folder]' data-sub-html='<h4>$res[sname]</h4>'>
-          <a href='#'><img src='$res[folder]' alt='IMAge' class='img-fluid'></a>
-                              <div class='lft'>       
-                    <a href='delete.php?ps=$res[sno]'> <button class='btn btn-success' style='float:right; border:0.5px solid white;'>DELETE</button></a>
-                    <div style='height:50px;'> </div>
-                  </div>
-        </div>";
-        /*if($countrow==3)
-        {
-          echo"</div>";
-          $countrow=0;
-        }
-        if ($countrow==0) 
-        {
-          echo"<div class='row'>";    
-        }
-        echo" 
-          <div class='col-md-4' data-aos='flip-up'>
-              <div class='thumbnail'>
-                  <img src='$res[folder]' style='width:100px height:100px'>
-                    <div class='caption'><p style='font-family: Bodoni MT Condensed; font-size:30px;'>$res[sname]</p></div>
-                    <div class='lft'>       
-                    <a href='delete.php?ps=$res[sno]'> <button class='btn btn-success' style='float:right; border:0.5px solid white;'>DELETE</button></a>
-                    <div style='height:50px;'> </div>
-                  </div>
+        <div class="col-md-7">
+            <div class="row mb-5">
+                <div class="col-12 ">
+                    <h2 class="site-section-heading text-center">Hey Admin, Login Na</h2>
+				<form name="myForm" method="post" action="login.php" >
+					<div class="wrap-input100 validate-input" align="center">
+						<input class="input100" type="text" name="email" placeholder="User Name" required>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" required>
+						<input class="input100" type="password" name="pass" placeholder="Password" required>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="container-login100-form-btn">
+						<input type="submit" name="LOGIN" class="login100-form-btn"/>
+					</div>
+				</form>
+			    </div>
                 </div>
-              </div>
-          ";
-        $countrow=$countrow+1;//This is a Single Line Comment<!-- This is a Comment -->*/
-      }
-      echo "</div>";
-    ?>
+            </div>
 
 
 
@@ -219,7 +152,7 @@
 
 
     </div>
-    <script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/jquery-migrate-3.0.1.min.js"></script>
     <script src="../js/jquery-ui.js"></script>
     <script src="../js/popper.min.js"></script>
