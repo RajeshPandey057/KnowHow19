@@ -122,7 +122,44 @@
         $countrow=$countrow+1;
       }
       echo "</div>";
-    ?>                      </div>
+    ?>    
+                        
+                        
+                        
+                        <?php
+  
+      include 'connect.php';
+      $sql="select * from results";
+      $result=mysqli_query($conn,$sql);
+        echo "<div class='container1'>";
+      $countrow=0;
+      while($res=mysqli_fetch_assoc($result))
+      {
+        if($countrow==3)
+        {
+          echo"</div>";
+          $countrow=0;
+        }
+        if ($countrow==0) 
+        {
+          echo"<div class='row'>";    
+        }
+        echo" 
+          <div class='col-md-4' data-aos='flip-up'>
+              <div class='thumbnail'>
+                  <img src='$res[folder]' style='width:100px height:100px'>
+                    <div class='caption'><p style='font-family: Bodoni MT Condensed; font-size:30px;'>$res[nameofevent]</p></div>
+                    <div class='lft'>       
+                    <a href='delete.php?ps=$res[rno]'> <button class='btn btn-success' style='float:right; border:0.5px solid white;'>DELETE</button></a>
+                    <div style='height:50px;'> </div>
+                  </div>
+                </div>
+              </div>
+          ";
+        $countrow=$countrow+1;
+      }
+      echo "</div>";
+    ?>     </div>
                     </div>
                 </div>
             </div>
