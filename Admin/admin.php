@@ -145,7 +145,7 @@
                   <img src='$res[folder]' style='width:100px height:100px'>
                     <div class='caption'><p style='font-family: Bodoni MT Condensed; font-size:30px;'>$res[nameofevent]</p></div>
                     <div class='lft'>       
-                    <a href='delete1.php?ps=$res[rno]'> <button class='btn btn-success' style='float:right; border:0.5px solid white;'>DELETE</button></a>
+                    <a href='delete.php?ps=$res[rno]'> <button class='btn btn-success' style='float:right; border:0.5px solid white;'>DELETE</button></a>
                     <div style='height:50px;'> </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@
             </div>
         </div>
 
-        <div class="footer py-4">
+ <div class="footer py-4" style="position: fixed;width: 100%;bottom: 0px">
             <div class="container-fluid text-center">
                 <p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -168,7 +168,7 @@
                         <span class="icon">
                             <i class="fa fa-github"></i>
                         </span>
-                    </a>Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                    </a>Developed by RajeshPandey057 Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                     <script>
                         document.write(new Date().getFullYear());
 
