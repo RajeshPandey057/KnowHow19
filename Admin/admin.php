@@ -44,8 +44,7 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2" data-aos="fade-down">
-                        <img class="col-4" src="../images/logo.png" alt="Images" class="img-fluid" style="position: relative;right: 20px;top: 1px" />
-                        <h1 class="mb-0"><a href="../intro.html" class="text-black h2 mb-0" style="position: absolute;right: 10px;top: 6px">KnowHow'19</a></h1>
+                        <h1 class="eventlogo display-4 mb-0"><a href="../intro.html" class="text-black h2 mb-0">KnowHow'19</a></h1>
           </div>
           <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
@@ -145,7 +144,7 @@
                   <img src='$res[folder]' style='width:100px height:100px'>
                     <div class='caption'><p style='font-family: Bodoni MT Condensed; font-size:30px;'>$res[nameofevent]</p></div>
                     <div class='lft'>       
-                    <a href='delete.php?ps=$res[rno]'> <button class='btn btn-success' style='float:right; border:0.5px solid white;'>DELETE</button></a>
+                    <a href='delete1.php?ps=$res[rno]'> <button class='btn btn-success' style='float:right; border:0.5px solid white;'>DELETE</button></a>
                     <div style='height:50px;'> </div>
                   </div>
                 </div>
@@ -160,7 +159,7 @@
             </div>
         </div>
 
- <div class="footer py-4" style="position: fixed;width: 100%;bottom: 0px">
+        <div class="footer py-4">
             <div class="container-fluid text-center">
                 <p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -168,7 +167,7 @@
                         <span class="icon">
                             <i class="fa fa-github"></i>
                         </span>
-                    </a>Developed by RajeshPandey057 Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                    </a>Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                     <script>
                         document.write(new Date().getFullYear());
 

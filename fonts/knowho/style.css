@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'knowhow19';
-  src:  url('fonts/knowhow19.eot?2xtw4b');
-  src:  url('fonts/knowhow19.eot?2xtw4b#iefix') format('embedded-opentype'),
-    url('fonts/knowhow19.ttf?2xtw4b') format('truetype'),
-    url('fonts/knowhow19.woff?2xtw4b') format('woff'),
-    url('fonts/knowhow19.svg?2xtw4b#knowhow19') format('svg');
+  src:  url('fonts/knowhow19.eot?brclta');
+  src:  url('fonts/knowhow19.eot?brclta#iefix') format('embedded-opentype'),
+    url('fonts/knowhow19.ttf?brclta') format('truetype'),
+    url('fonts/knowhow19.woff?brclta') format('woff'),
+    url('fonts/knowhow19.svg?brclta#knowhow19') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.eventbvm1:before {
+  content: "\e90a";
+}
+.eventlogo:before {
+  content: "\e909";
+}
+.eventcvm:before {
+  content: "\e906";
+}
+.eventlogo1:before {
+  content: "\e907";
+}
+.eventbvm:before {
+  content: "\e908";
+}
 .eventm:before {
   content: "\e905";
 }
