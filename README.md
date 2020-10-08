@@ -1,9 +1,3 @@
-# 
- 
-
-Live version is available at : 
-
-Features :
 <h1>KnowHow19</h1>
 <h3>A simple , easy to navigate yet powerful and expressive website about an event of my college.</h3>
 <br/>
@@ -13,7 +7,6 @@ Features :
 </p>
 <br/>
 <h3>Description </h3>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rajeshpandey057" alt="rajeshpandey057" /> </p>
 
 - 👨‍💻Using HTML, CSS for front-end and JavaScript PhP for backend 
 
